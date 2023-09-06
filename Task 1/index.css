@@ -1,0 +1,49 @@
+body{
+    background-image:url("./5cdbececb102f96f5809144e_portfolio\ 2\ -\ wide.svg" );
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#col1{
+     text-align: center;
+     font-family: cursive;
+     font-size: 50px;
+     color: darkgrey;
+     text-shadow: 2px 2px 4px darkgray;
+    } 
+.col-6 > img{
+        border-radius: 50%;
+    }
+#container1 > .row ul{
+    margin: 20px 0px 100px 0px ;
+    text-shadow: 2px 2px 2px grey;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    list-style: none;
+}
+#myList li a{
+    color: grey;
+    text-decoration: none;
+}
+#myList li a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+.containeritems{
+    display: grid;
+    gap: 3rem;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.projectitems{
+    display: grid;
+    gap: 3rem;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.projectitems button{
+    background-color: lightgray;
+}
+
+
